@@ -11,3 +11,5 @@ In css colors can be specified by their color names for most common color, then 
 
 
 For fonts there are web safe fonts, which means you dont have to import anything and then there are fonts that can be imported such as google fonts.
+
+An id has to be unique, a class can be reused on other elements. To target a class in css we use are .
