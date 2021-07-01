@@ -1,3 +1,8 @@
+/* In order to zero out the default margin and padding with the elements we can use below. * means targetting all the elements */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 body {
     background-color: #f4f4f4;
     color: #555555;
@@ -19,4 +24,39 @@ body {
 .box-1 {
     background-color: #333;
     color: #fff;
+    
+
+    /* CSS Box model */
+    /* Padding longer way */
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+    /* Padding shorthand. If we want 10px all around */
+    padding: 10px;
+    /* If we want different space all around then we need to use below format. It is top right bottom left. so below will add 10px top padding, 5px right padding 7 px bottom padding and 3px left padding */
+    /* padding: 10px 5px 7px 3px; */
+    /* Border  longer way */
+    /* border-top: 5px red solid;
+    border-right: 5px red solid;
+    border-bottom: 5px red solid;
+    border-left: 5px red solid; */
+    /*  Other styles with border */
+    /* border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted; */
+    /* Shorhand for border */
+    border: 5px red solid;
+
+    /* In below syntax we are assigning margin of 10 px around the border in top and bottom and 0 px in right and left.  */
+    margin: 10px 0;
+
+}
+/* In order to target h1 in block1 */
+.box-1 h1 {
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
 }

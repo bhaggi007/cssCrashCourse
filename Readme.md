@@ -13,3 +13,6 @@ In css colors can be specified by their color names for most common color, then 
 For fonts there are web safe fonts, which means you dont have to import anything and then there are fonts that can be imported such as google fonts.
 
 An id has to be unique, a class can be reused on other elements. To target a class in css we use are .
+
+
+Box model: Every html element can be thought of as a box. The space between the element and its boder is padding and the space outside of border is called margin. We can set padding border and margin for each element.
